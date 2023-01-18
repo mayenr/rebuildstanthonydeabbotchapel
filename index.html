@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rebuilding of St. Anthony the Abbot Chapel - TCEV</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+<style>
+    body {
+        scroll-behavior: smooth;
+    }
+    #navbarcontainer {
+        background-image: url('Made with Motionleap (1).gif');
+        background-size: cover;
+        background-position-y: bottom;
+        margin: 0;
+        padding: 0;
+    }
+    #bodyfirstpart {
+        margin: 0;
+        padding: 0;
+        height: 100vh;
+        width: 100%;
+    }
+    #bodyfirstpartimage {
+        background-image: url('bodyfirstpart img02.jpg');
+        background-position-x: center;
+        height: 70vh;
+        width: 70vw;
+    }
+    #bodyfirstpartimageheader {
+        background-color: rgba(128, 128, 128, 0.719);
+        padding-bottom: 3vh;
+    }
+    #appearcontainer {
+        animation: slideLeft 3.5s forwards;
+        opacity: 0;
+        transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+        color: white;
+        padding-top: 3vh;
+    }
+    @keyframes slideLeft {
+        from {
+            opacity: 0;
+            transform: translateX(200px);
+        } 
+        to {
+            opacity: 1;
+            transform: translateX(0%);
+            }
+    }
+    #firstbutton {
+        margin-top: 3vh;
+        width: 130px;
+        border-color: white;
+        border-width: 3px;
+        color: white;
+    }
+    #bodysecondpart {
+        padding: 10vw;
+    }
+    #oldchapelimg {
+        width: 100%; 
+        box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.692);
+    }
+    .align-right {
+	    float: right;
+	    margin-left: 20px;
+    }
+    .align-left {
+        float: left;
+        margin-right: 20px;
+    }
+    .slide-in {
+	    opacity: 0;
+	    transition: all 3s;
+    }
+    .align-left.slide-in {
+        transform: translateX(-30%) scale(0.95);
+    }
+    .align-right.slide-in {
+        transform: translateX(30%) scale(0.95);
+    }
+    .slide-in.active {
+        opacity: 1;
+        transform: translateX(0%) scale(1);
+    }
+</style>
+
+</head>
+<body>
+    <div class="container-fluid" id="bodyfirstpart">
+        <!-----START Top NavBar-->
+    <div class="container-fluid" id="navbarcontainer">
+        <br><br>
+        <div class="container" >
+        <nav class="navbar navbar-expand-lg" style="margin: 0; padding: 0;">
+            <div class="container-fluid" style="margin: 0; padding-left: 1vh; padding-right: 1vh;">
+                <a class="navbar-brand" href="index.html">
+                    <img src="logo.jpg" alt="" width="70" height="50" padding="0" margin="0"></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation"  style="background-color: white; ">
+                    <span class="navbar-toggler-icon" style="background-color: white; "></span>
+                    </button>
+            <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="index.html"><h5>Home</h5></a>
+                    </li>
+                    <li><a class="nav-link" aria-current="page" href="#appearcontainer2"><h5>About</h5></a>
+                    </li>
+                    <li><a class="nav-link" aria-current="page" href="#"><h5>Location</h5></a>
+                    </li>
+                    <li><a class="nav-link" aria-current="page" href="#"><h5>Events</h5></a>
+                    </li>
+                    <li><a class="nav-link" aria-current="page" href="#"><h5>Donation</h5></a>
+                    </li>
+                    <li><a class="nav-link" aria-current="page" href="#"><h5>Contact</h5></a>
+                    </li>
+                </ul>
+                <span class="navbar" style="color: whitesmoke;">Follow Us
+                    <span id="callandemailicon1"> <!---socialmediaicons for MD SM screens-->
+                        <a href="https://www.facebook.com/profile.php?id=100089214354633" target="_blank"><i class="fa fa-facebook" style="font-size: 40px; padding-left: 1vw;"></i></a>
+                    </span>
+                    </span></b>
+                </span>
+            </div>
+            </div>
+        </nav>
+    </div><br>
+    </div><br><br>
+<!-----END Top NavBar-->
+    <div class="container" id="bodyfirstpartimage">
+        <br><br><br><br><br>
+        <div class="row" id="bodyfirstpartimageheader">
+            <center><span><h1 class="animation" id="appearcontainer">Rebuilding of St. Anthony de Abbot Chapel</h1></span></center>
+            <center><a href="#appearcontainer2"><button type="btn" class="btn" id="firstbutton"><b>ABOUT</b></button></a></center>
+            
+    
+
+</div>
+</div>    
+    </div>
+    <div class="container" id="bodysecondpart">
+        <div class="row">            
+            <center><h4 id="appearcontainer2" style="color: black;">Rebuilding The St. Anthony de Abbot Chapel
+                <br>by Mimi F. Nitura, MPPC Head, TCEV</h4></center>
+            </div><br><br>
+            <div class="row">    
+            <div class="col-lg-6 col-md-12 col-sm-12">
+                
+                <article style="text-align: justify;">
+                    <p>Established more than 30 years ago today, The ST. ANTHONY de ABBOT CHAPEL, was one of the first few structures built in this gated community of TOWN & COUNTRY EXECUTIVE VILLAGE. Back in the day, a place of worship was a facility that found favor with potential lot and homeowners.<br><br>
+                        Through the years, the community grew from about 500 families, to 1500+ families today. The chapel at some point, underwent some expansion to accommodate the increased number of those attending the Eucharistic celebrations held on weekends.<br><br>In 2018, under the leadership of the former Shrine Rector & Parish Priest Rev. FR. ALY A. BARCINAL and the late MPPC TCEV Head MAAN FLORES, efforts to rebuild the St. Anthony de Abbot Chapel began.<br><br>
+                        </p>
+                </article>
+            </div>
+            <div class="col-lg-6 col-md-12 col-sm-12">
+                <center><img src="oldchapel img01.jpg" class="align-right slide-in" alt="oldchapel img" id="oldchapelimg"></center>
+                <span style="font-size: 8px;">Old St. Anthony de Abbot Chapel</span>
+            
+            
+            
+            </div>
+        </div>
+        <br><br>
+        <div class="row">
+            <article style="text-align: justify;">
+            <p>The design of the chapel was prepared by ARCHITECT LIZETTE MANALANG-SANTOS, in collaboration with STRUCTURAL ENGINEER ROD TIBURCIO, ELECTRICAL ENGINEERS WILLY CRUZ & MANNY PANIS, MECHANICAL ENGINEER BOY PUNSALAN, and SANITARY ENGINEER MYLEEN LOPEZ. Except for the Sanitary Engineer, we are happy to say that our Architect and Engineers are all residents of TOWN & COUNTRY EXECUTIVE VILLAGE.<br><br>
+                We truly appreciate and are so proud at the wealth of talent and professionals we have in our midst. To them we are eternally grateful for their "pro bono" work for our community. We pray that the Lord will reward them a hundredfold for their selfless service! 
+            </p>
+        </article>
+
+        </div>
+        <div class="row">
+            <div class="col-lg-6 col-md-12 col-sm-12">
+                <center><img src="design img03.jpg" class="align-left slide-in" alt="newchapel img" id="oldchapelimg"></center>
+                <span style="font-size: 8px;">Our Vision, Rebuild St. Anthony de Abbot Chapel</span>
+
+            </div>
+            <div class="col-lg-6 col-md-12 col-sm-12">
+                <article style="text-align: justify;">
+                <p>To get the project started however, we needed to raise funds. In 2018 up to 2019, various Fund Raising projects were launched and thankfully we were able to raise P 9.5M. Thank you to all those who contributed to the funds raised. May God continue to bless you! The cost of the project is a long way to go however, with the total cost of the project placed at P30M.<br><br>Alongside embarking on the Rebuilding of the Chapel, we are also working with the TCEVHA Board of Directors for the donation of the Chapel Lot to the Diocese of Antipolo. This was previously approved by our homeowners in a referendum called for the purpose on April 28 and May 4, 2019. 
+                </p>
+                </article>
+
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            
+            <article style="text-align: justify;">
+            <p>Our goal now is to raise P24M to add to our initial P9.5M. We had already given a down payment to our Contractor and are anticipating progress billings when construction proceeds. As of this writing, the chapel has been demolished and we are awaiting release of the Building Permit after completion of requirements.<br><br>The dream is, if only there were 1000 people who could donate P24, 000 each, then we could easily raise the P24M. One way to raise the P24K individually is to set aside P100 per day for 5 days per week, for a weekly donation of P500 and to do this for 48 weeks. If only 1000 people did the same, then we would easily be able to raise the P24M. To date we are blessed to have received donations of P200 to P250,000 from 88 individuals, from in and outside our village. A few are doing weekly and monthly contributions while others have made a full contribution of P25, 000 each and others have given more.<br><br>Any amount is welcome. Every contribution is a blessing at whatever mode or frequency. We are truly grateful to those who have given and continue to give. May you be blessed even more! 
+            </p>
+        </article>
+        
+        </div>
+        <br>
+        <div class="row">
+            
+            <center><img src="donate img01.jpg" class="align-left slide-in" alt="donate img" id="oldchapelimg"></center>
+                <span style="font-size: 8px;">Thank You for Your Help</span>
+
+        </div>
+
+
+
+
+
+
+
+    </div>
+    
+    <script>
+    var spanText = function spanText(text) {
+  var string = text.innerText;
+  var spaned = '';
+  for (var i = 0; i < string.length; i++) {
+    if(string.substring(i, i + 1) === ' ') spaned += string.substring(i, i + 1);
+    else spaned += '<span>' + string.substring(i, i + 1) + '</span>';
+  }
+  text.innerHTML = spaned;
+}
+
+var headline = document.querySelector("h1");
+
+spanText(headline);
+
+let animations = document.querySelectorAll('.animation');
+
+animations.forEach(animation => {
+  let letters = animation.querySelectorAll('span');
+  letters.forEach((letter, i) => {
+    letter.style.animationDelay = (i * 0.4) + 's';
+  })
+})
+
+function appear() {
+        document.getElementById("appearcontainer").innerHTML="Rebuilding of St. Anthony de Abbot Chapel";    
+    } 
+    setTimeout (appear, 2000);
+    </script>
+    <script>
+        function debounce(func, wait = 20, immediate = true) {
+	var timeout;
+	return function() {
+		var context = this,
+			args = arguments;
+		var later = function() {
+			timeout = null;
+			if (!immediate) func.apply(context, args);
+		};
+		var callNow = immediate && !timeout;
+		clearTimeout(timeout);
+		timeout = setTimeout(later, wait);
+		if (callNow) func.apply(context, args);
+	};
+}
+
+const sliderImages = document.querySelectorAll('.slide-in');
+
+function checkSlide(e) {
+	sliderImages.forEach(sliderImage => {
+		// halfway through the image
+		const slideInAt = (window.scrollY + window.innerHeight) - sliderImage.height / 2;
+		// bottom of the image
+		const imageBottom = sliderImage.offsetTop + sliderImage.height;
+		const isHalfShown = slideInAt > sliderImage.offsetTop;
+		const isNotScrolledPast = window.scrollY < imageBottom;
+		if (isHalfShown && isNotScrolledPast) {
+			sliderImage.classList.add('active');
+		} else {
+			sliderImage.classList.remove('active');
+		}
+
+		console.log(slideInAt);
+	});
+}
+
+window.addEventListener('scroll', debounce(checkSlide));
+    </script>
+</body>
+</html>
